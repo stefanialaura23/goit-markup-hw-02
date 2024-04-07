@@ -1,0 +1,23 @@
+:root{ 
+    --blue: #2196F3;
+    --black: #212121; 
+    --grey:#757575; 
+    --white:#FFFFFF;
+    --light-black: #2F303A;
+     --primary-font: "Roboto" sans-serif;
+    --secondary-font:"Raleway" sans-serif;
+       
+} 
+
+.header{
+     
+}
+
+.header__logo{  
+
+
+}
+ 
+ .header__navigation ul{ 
+     list-style: none;
+ }
