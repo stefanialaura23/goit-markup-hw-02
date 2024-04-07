@@ -3,19 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homework 01</title> 
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Homework 01</title>  
+     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-</head>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"> 
+      
+    <link rel="stylesheet" href="css/style.css">
+
+</head> 
+
 <body> 
     <!--Header Section-->   
       <header class="header">
-        <div class="header__logo">  
+        <div>  
             <a href="#">
                 <p><span>Web</span>Studio</p>
             </a>
@@ -39,39 +42,39 @@
     
        
     <!--Main Part-->
-    <main>  
+    <main class="hero">  
         <!--Hero section-->
-        <section> 
-            <h1>EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
-             <button class="header__request" type="button">Order a service</button>
+        <section class="hero__section"> 
+            <h1 class="hero__title">EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
+             <button class="hero__request" type="button">Request our service</button>
         </section>
           
         <!--About Section--> 
-        <section>
-             <div>
+        <section class="about">
+             <div> 
                   
-                <p><b>ATTENTION TO DETAILS</b></p>
-                <ul>
+                <p class="about__title"><b>ATTENTION TO DETAILS</b></p>
+                <ul class="about__subtitle">
                     <li> We go into all the details and processes of your business to develop a customized solution.</li>
                     </ul> 
 
-                    <p><b>PUNCTUALITY</b></p>
-                     <ul> 
+                    <p class="about__title"><b>PUNCTUALITY</b></p>
+                     <ul class="about__subtitle"> 
                         <li> With us, you can feel safe and secure. An important principle of the company: respect your time and deadlines.</li>
                      </ul>
 
-                      <p><b>PLANNING</b></p> 
-                      <ul> 
+                      <p class="about__title"><b>PLANNING</b></p> 
+                      <ul class="about__subtitle"> 
                         <li>You will be able to observe and participate in every phase of solution development and implementation.</li>
                          </ul>
                           
-                          <p><b>MODERN TECHNOLOGIES</b></p>
-                          <ul>
+                          <p class="about__title"><b>MODERN TECHNOLOGIES</b></p>
+                          <ul class="about__subtitle">
                              <li>We use innovative tools to solve assigned tasks. It's time to simplify work processes.</li>
                           </ul>
              </div> 
-             <div> 
-                <h2>What we do</h2> 
+             <div class="tasks"> 
+                <h2 class="tasks__team">What we do</h2> 
                  <img src="./images/img.1.jpg" alt="Code writing" width="200">
                  <img src="./images/img.2..jpg" alt="Phone browsing" width="200">
                  <img src="./images/img.3.jpg" alt="Color palette on a tablet" width="200">
@@ -79,34 +82,34 @@
               
              <!--Container with team's details-->
               <div>
-             <h2>Our team</h2> 
+             <h2 class="team">Our team</h2> 
              <div>  
                 <!--Container 1-->
                 <img src="./images/img.5.jpg" alt="Christopher Walker" width="150">  
-                <p>Christopher Walker</p>
-                <p>Product Designer</p>
+                <p class="team__member">Christopher Walker</p>
+                <p class="team__job">Product Designer</p>
              </div> 
                
              <!--Container 2-->
              <div> 
                 <img src="./images/img.6.jpg" alt="Kylie Evans" width="150"> 
-                <p>Kylie Evans</p> 
-                <p>Frontend Developer</p>
+                <p class="team__member">Kylie Evans</p> 
+                <p class="team__job">Frontend Developer</p>
              </div>
               
               <!--Container 3-->
                
              <div>
                  <img src="./images/img.7.jpg" alt="Ryan Harris" width="150">
-                  <p>Ryan Harris</p>
-                <p>Marketing</p>
+                  <p class="team__member">Ryan Harris</p>
+                <p class="team__job">Marketing</p>
              </div>
                 
              <!--Container 4-->
              <div>
                  <img src="./images/img.4.jpg" alt="Tyler Moore" width="150"> 
-                 <p>Tyler Moore</p> 
-                 <p>UI Designer</p>
+                 <p class="team__member">Tyler Moore</p> 
+                 <p class="team__job">UI Designer</p>
              </div>
               </div>
             </section>
@@ -114,18 +117,18 @@
      
     <!--Footer Section-->
 
-    <footer>    
+    <footer class="footer">    
              <!--Contact Information Section-->
      
       
             <div> 
                 <a href="#">
-                    <p><span>Web</span>Studio</p>
+                    <p class="footer__second-half"><span class="footer__first-half">Web</span>Studio</p>
                 </a>
-                <address> 
-                    695 Park Ave, NY 10065, USA 
-                   <br> <a href="info@devstudio.com">info@devstudio.com</a><br>
-                    <a href="+12127724150">+1 212-772-4150</a>
+                <address class="address"> 
+                    <p class="address__street">695 Park Ave, NY 10065, USA</p>
+                  <br>  <a class="adress__email" href="info@devstudio.com">info@devstudio.com</a><br>
+                    <a class="adress__phone-number" href="+12127724150">+1 212-772-4150</a>
                 </address>
                  
             </div>

@@ -4,23 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homework 2</title>
-     <link rel="stylesheet" href="./css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&display=swap" rel="stylesheet"> 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>  
     <!--Header Section-->
-    <header> 
+    <header class="header"> 
         <div>
             <a href="#">
                 <p><span>Web</span>Studio</p>
             </a>
     
-            <nav>
+            <nav class="header__navigation">
                 <ul>
                     <li><a href="#">Studio</a></li>
                     <li><a href="#">Portofolio</a></li>
@@ -29,7 +29,7 @@
                  
                 </nav>
                 </div>
-                <div>
+                <div class="header__info">
                 
                     <a href="email:info@devstudio.com">info@devstudio.com</a>
                     <a href="tel:12127724150 ">+1 212-772-4150</a>
@@ -38,14 +38,14 @@
     </header>
                  
                 <!--Main Part-->
-                 <main>
+                 <main class="main">
                       
                     <!--Hero Section-->
                      
                       
                      <ul>
-                     <li>
-                        <button type="button">All</button>  
+                     <li class="main__buttons" >
+                        <button class="main__button1" type="button">All</button>  
                         <button type="button">Web-sites</button> 
                         <button type="button">Apps</button> 
                         <button type="button">Design</button>  
@@ -60,43 +60,43 @@
                      
                     <!--Container 1-->
 
-                     <div>
+                     <div class="about">
                           
                         <img src="./images/img.15.jpg" alt="Technoduck" width="150">
-                         <p>Technoduck</p> 
-                         <p>Web-sites</p> 
+                         <p class="about__name">Technoduck</p> 
+                         <p class="about__subname">Web-sites</p> 
                           
                          <img src="./images/img.16.jpg" alt="Poster New Orlean vs Golden Star" width="150">
-                          <p>Poster New Orlean vs Golden Star</p>
-                           <p>Design</p> 
+                          <p class="about__name">Poster New Orlean vs Golden Star</p>
+                           <p class="about__subname">Design</p> 
 
                         <img src="./images/img.14.jpg" alt="Seafood Restaurant" width="150">
-                         <p>Seafood Restaurant</p> 
-                         <p>Apps</p> 
+                         <p class="about__name">Seafood Restaurant</p> 
+                         <p class="about__subname">Apps</p> 
                           
                          <img src="./images/img.13.jpg" alt="Project Prime" width="150"> 
-                         <p>Project Prime</p> 
-                         <p>Marketing</p> 
+                         <p class="about__name">Project Prime</p> 
+                         <p class="about__subname">Marketing</p> 
                           
                          <img src="./images/img.12.jpg" alt="Project boxes" width="150">
-                          <p>Project boxes</p> 
-                          <p>Apps</p>  
+                          <p class="about__name">Project boxes</p> 
+                          <p class="about__subname">Apps</p>  
                            
                           <img src="./images/img.11.jpg" alt="Inspiration has no Border" width="150"> 
-                          <p>Inspiration has no Border</p>
-                           <p>Web-site</p> 
+                          <p class="about__name">Inspiration has no Border</p>
+                           <p class="about__subname">Web-site</p> 
                             
                            <img src="./images/img.10.jpg" alt="Limited edition" width="150"> 
-                           <p>Limited edition</p> 
-                           <p>Design</p> 
+                           <p class="about__name">Limited edition</p> 
+                           <p class="about__subname">Design</p> 
                             
                            <img src="./images/img.9.jpg" alt="Project Lab" width="150">
-                            <p>Project Lab</p>
-                             <p>Marketing</p> 
+                            <p class="about__name">Project Lab</p>
+                             <p class="about__subname">Marketing</p> 
                               
                              <img src="./images/img.8.jpg" alt="Growing business" width="150"> 
-                             <p>Growing bussines</p>
-                            <p>Apps</p>
+                             <p class="about__name">Growing bussines</p>
+                            <p class="about__subname">Apps</p>
                      </div>
                      
                      
@@ -111,24 +111,23 @@
                  
                 <!--Footer Section-->
                 
-                <footer>
+                <footer class="footer">
                     <!--Contact Information Section-->
                 
                 
                     <div>
                         <a href="#">
-                            <p><span>Web</span>Studio</p>
+                            <p class="footer__second-half"><span class="footer__first-half">Web</span>Studio</p>
                         </a>
-                        <address>
-                            695 Park Ave, NY 10065, USA
-                            <br> <a href="info@devstudio.com">info@devstudio.com</a><br>
-                            <a href="+12127724150">+1 212-772-4150</a>
+                        <address class="address">
+                            <p class="address__street">695 Park Ave, NY 10065, USA</p>
+                            <br> <a class="adress__email" href="info@devstudio.com">info@devstudio.com</a><br>
+                            <a class="adress__phone-number" href="+12127724150">+1 212-772-4150</a>
                         </address>
                 
                     </div>
                 
                 </footer>
-
     
 </body>
 </html>
