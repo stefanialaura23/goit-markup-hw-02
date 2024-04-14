@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portofoliu</title>
+    <title>Portofoliu</title> 
+      
+    <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
+
      <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&display=swap" rel="stylesheet"> 
@@ -19,16 +22,17 @@
     
      
     <!--Header Section-->
-    <header class="header"> 
-        <div>
+     <section class="section">
+    <header class="header__container"> 
+        <div class="container">
             <a href="#">
                 <p class="logo"><span>Web</span>Studio</p>
             </a>
     
             <nav class="header__navigation">
                 <ul>
-                    <li><a class="studio" href="/index.html">Studio</a></li>
-                    <li><a class="portofolio" href="/index.html">Portofolio</a></li>
+                    <li><a class="studio" href="./index.html">Studio</a></li>
+                    <li><a class="portofolio" href="./portofoliu.html">Portofolio</a></li>
                     <li><a class="contacts" href="#">Contacts</a></li>
                 </ul>   
                  
@@ -39,7 +43,8 @@
                     <a class="email" href="email:info@devstudio.com">info@devstudio.com</a>
                     <a class="phone" href="tel:12127724150 ">+1 212-772-4150</a>
                 
-                </div> 
+                </div>  
+            </section>
     </header>
                  
                 <!--Main Part-->
@@ -48,7 +53,7 @@
                     <!--Hero Section-->
                      
                       
-                     <ul>
+                     <ul class="container-list">
                      <li class="main__list">
                         <button class="main__button" type="button">All</button>
                         <button class="main__button" type="button">Web-sites</button> 
@@ -120,11 +125,11 @@
                     <!--Contact Information Section-->
                 
                 
-                    <div>
+                    <div class="container">
                         <a href="#">
                             <p class="logo"><span>Web</span>Studio</p>
                         </a>
-                        <address>
+                        <address class="container">
                             <p class="street">695 Park Ave, NY 10065, USA</p>
                             <br> <a class="email2"  href="info@devstudio.com">info@devstudio.com</a><br>
                             <a class="phone2"  href="+12127724150">+1 212-772-4150</a>

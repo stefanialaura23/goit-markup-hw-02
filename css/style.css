@@ -14,20 +14,33 @@
  
     body{
       font-family: "Roboto", sans-serif;
-      color: default;
+      color: default; 
     }
-      
-
+ 
 /*Header Section*/ 
 
+header.header__container{ 
+  width: 1200px;
+  display: flex; 
+  justify-content: space-between; 
+  margin-left: auto; 
+  margin-right: auto;
+  align-items: center; 
+  height: 80px;
+}
   
+
+
+ 
 .logo:hover{ 
   text-decoration:none;
   font-family: var(--secondary-font);
   font-size: 26px;
   font-weight: 700;  
   line-height: 33%;
-  color: #212121;
+  color: #212121; 
+  padding-top: 60px;
+  
 } 
 
  .logo span{ 
@@ -35,7 +48,9 @@
  }
  
  .header__navigation ul{ 
-     list-style:none;
+     list-style:none; 
+     display: flex; 
+     gap: 40px;;
  }
     
  a.studio:hover{ 
@@ -57,13 +72,15 @@
     color:#2196F3 ;
    }
 
+   
 
   .header__navigation a{
      text-decoration:none;
      font-family:var(--primary-font);
      font-weight:500;
      line-height:17%;
-    font-size: 14px;
+    font-size: 14px; 
+  
     }
     
     .header__info a{
@@ -71,25 +88,62 @@
     font-family: var(--primary-font);
     font-size: 14px;
     font-weight: 500;
-    line-height: 17%;
-    }
+    line-height: 17%; 
+    
+    } 
+     
+     
+    /*Main Part*/
+      
        
-            /*Hero Section*/
+            /*Hero Section*/ 
+             
+            section.hero__section{
+              background-color: #2F303A;
+               display: flex;
+                align-items: center;
+              width: 1600px;
+                height: 600px;
+                top: 80px;
+                gap: 0px;
+                opacity: 0px;
+              
+            }
       
             .hero__title {
               font-family: var(--primary-font);
               font-size: 44px;
               font-weight: 900;
-              line-height: 60%;
+              line-height: 60%;  
+               color: #FFFFFF;
+              display: flex;
+              align-items: center;
+              width: 696px;
+              height: 120px;
+              top: 280px;
+              left: 452px;
+               gap: 0px;
+              opacity: 0px;
             }
-      
+            
+            
+
             .hero__request {
               color: var(--white);
               font-family: "Roboto", sans-serif;
               font-size: 16px;
               font-weight: 700;
               line-height: 30%;
-              cursor: pointer;
+              cursor: pointer;  
+              display: flex;
+              align-items: center; 
+              width: 200px;
+              height: 50px;
+              top: 430px;
+              left: 700px;
+              gap: 0px;
+              border-radius: 4px 0px 0px 0px;
+              opacity: 0px;
             }
       
             .hero__request:hover {
@@ -98,28 +152,49 @@
             }
       
       
-            /*About Section*/
+            /*About Section*/ 
+             
       
             .about__title {
               font-family: var(--primary-font);
               font-size: 14px;
               font-weight: 700;
               line-height: 17%;
-              color: #212121;
+              color: #212121; 
+              width: 270px;
+              height: 16px;
+              top: 774px;
+              left: 215px;
+              gap: 0px;
+            
             }
       
       
       
             .about__subtitle {
               list-style: none;
+               
             }
-      
+              
+            div.lists-parent{
+              width: 1170px;
+              height: 101px;
+                gap: 0px;
+                display: flex;
+                align-items: center;
+                flex-wrap: wrap;
+            }    
+              
+
             .tasks__team {
               font-family: var(--primary-font);
               font-size: 36px;
               font-weight: 700;
               line-height: 43%;
-              color: #212121;
+              color: #212121; 
+              display: flex;
+              flex-direction: row;
+                
             }
       
       
@@ -129,6 +204,12 @@
               font-weight: 700;
               line-height: 18%;
               color: #212121;
+             list-style: none;
+            } 
+             
+            h2.team{
+               display: flex;
+              align-items: center;
             }
       
       
@@ -139,6 +220,7 @@
               font-weight: 500;
               line-height: 4%;
               color: #212121;
+              list-style: none;
             }
       
       
@@ -239,7 +321,7 @@
               font-weight: 400;
               line-height: 17%;
               color: #FFFFFF;
-              font-style: normal;
+              font-style: normal; 
             }
       
             a.email2 {
@@ -257,6 +339,45 @@
             a.phone2:hover {
               color: #FFFFFF99;
             }
-     
-
-    
+              
+              
+          
+                 div.container {
+                   width: 1200px; 
+                   margin-right: auto;
+                   margin-left: auto; 
+                    height: 251px;
+                 }
+                  
+                  img{
+                     display:block;
+                     max-width: 100%;
+                      height:auto; 
+                  } 
+                   
+              section.section{ 
+                 margin-top: 94px; 
+                 margin-bottom:94px;
+              }
+               
+             
+             .tasks{
+               display: flex; 
+               flex-direction: row; 
+               gap: 20px; 
+              width: 1170px;
+                height: 386px;
+                margin-top: 969px;
+                margin-left: 215px;
+               
+             }
+              
+               
+         .container-list{
+           margin-left:542px; 
+           margin-right:542px; 
+           display: flex;
+            align-items: center;
+         } 
+          
+      

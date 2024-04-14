@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homework 01</title>  
+    <title>Homework 03</title>  
+      
+    <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
+
      <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
@@ -17,23 +20,24 @@
 
 <body> 
     <!--Header Section-->    
-     
-      <header class="header">
-        <div>  
+      <section class="section">
+      <header class="header__container">
+              <div class="container">  
             <a href="#">
                 <p class="logo"><span>Web</span>Studio</p>
             </a>
 
              <nav class="header__navigation">
              <ul> 
-                <li><a class="studio" href="/portofoliu.html">Studio</a></li>
-                <li><a class="portofolio" href="/portofoliu.html">Portofolio</a></li>
+                <li><a class="studio" href="./index.html">Studio</a></li>
+                <li><a class="portofolio" href="./portofoliu.html">Portofolio</a></li>
                 <li><a class="contacts" href="#">Contacts</a></li>
                 </ul>
 
 
         </nav> 
-        </div> 
+        </div>  
+        
         <div class="header__info">
         
             <a class="email" href="email:info@devstudio.com">info@devstudio.com</a>
@@ -41,33 +45,36 @@
             
         </div>
       </header> 
-    
+    </section>
        
-    <!--Main Part-->
-    <main class="hero">  
+    <!--Main Part--> 
+ 
+    <section class="section">
+     
+    <main class="hero">  -
         <!--Hero section-->
         <section class="hero__section"> 
             <h1 class="hero__title">EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
              <button class="hero__request" type="button">Request our service</button>
         </section>
           
-        <!--About Section--> 
+        <!--About Section-->  
         <section class="about">
-             <div> 
+             <div class="lists-parent"> 
                   
                 <p class="about__title"><b>ATTENTION TO DETAILS</b></p>
                 <ul class="about__subtitle">
-                    <li> We go into all the details and processes of your business to develop a customized solution.</li>
+                    <li class="item"> We go into all the details and processes of your business to develop a customized solution.</li>
                     </ul> 
 
                     <p class="about__title"><b>PUNCTUALITY</b></p>
                      <ul class="about__subtitle"> 
-                        <li> With us, you can feel safe and secure. An important principle of the company: respect your time and deadlines.</li>
+                        <li class="item"> With us, you can feel safe and secure. An important principle of the company: respect your time and deadlines.</li>
                      </ul>
 
                       <p class="about__title"><b>PLANNING</b></p> 
                       <ul class="about__subtitle"> 
-                        <li>You will be able to observe and participate in every phase of solution development and implementation.</li>
+                        <li class="item">You will be able to observe and participate in every phase of solution development and implementation.</li>
                          </ul>
                           
                           <p class="about__title"><b>MODERN TECHNOLOGIES</b></p>
@@ -82,23 +89,24 @@
                  <img src="./images/img.3.jpg" alt="Color palette on a tablet" width="200">
              </div> 
               
-             <!--Container with team's details-->
-              <div>
+             
              <h2 class="team">Our team</h2> 
              <div>  
-                <!--Container 1-->
-                <img src="./images/img.5.jpg" alt="Christopher Walker" width="150">  
+                <!--Container 1--> 
+                <img src="./images/img.5.jpg" alt="Christopher Walker" width="150"> 
                 <p class="team__member">Christopher Walker</p>
                 <p class="team__job">Product Designer</p>
+                
              </div> 
                
              <!--Container 2-->
-             <div> 
+             <div class="team__cards"> 
+                
                 <img src="./images/img.6.jpg" alt="Kylie Evans" width="150"> 
                 <p class="team__member">Kylie Evans</p> 
                 <p class="team__job">Frontend Developer</p>
              </div>
-              
+        
               <!--Container 3-->
                
              <div>
@@ -113,29 +121,36 @@
                  <p class="team__member">Tyler Moore</p> 
                  <p class="team__job">UI Designer</p>
              </div>
-              </div>
+            </ul>
             </section>
+            </section> 
+        
     </main>      
      
-    <!--Footer Section-->
+    <!--Footer Section--> 
+     
+    <section class="section">
 
     <footer class="footer">    
              <!--Contact Information Section-->
      
       
-            <div> 
+            <div class="container">   
+        
+
                 <a href="#">
                     <p class="logo"><span>Web</span>Studio</p>
                 </a>
-                <address> 
+                <address class="container"> 
                     <p class="street">695 Park Ave, NY 10065, USA</p>
                   <br> <a class="email2" href="info@devstudio.com">info@devstudio.com</a><br>
                     <a class="phone2"  href="+12127724150">+1 212-772-4150</a>
                 </address>
                  
-            </div>
-         
+         </div>
      </footer>
+      
+      <section>
 </body>
 </html>
  
