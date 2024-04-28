@@ -226,7 +226,7 @@ header.header__container{
                     li.item {
                       list-style: none;
                     }   
-                    
+
              div.div__hero{
                display: flex;
                 width: 1170px;
@@ -551,4 +551,9 @@ header.header__container{
          
             div.container{ 
               
+            } 
+             
+            .section{
+               border-top: 94px; 
+               border-bottom:94px;
             }
