@@ -61,25 +61,12 @@ header.header__container{
   padding-top: 60px;
   
 } 
-  
-.logo2:hover {
-  text-decoration: none;
-  font-family: var(--secondary-font);
-  font-size: 26px;
-  font-weight: 700;
-  line-height: 33%;
-  color: #212121;
-  padding-top: 60px;
-
-}
+ 
 
  .logo span{ 
   color: #2196F3;
  } 
-  
-   .logo2 span {
-      color: #2196F3; 
-    }
+
      
    
    
@@ -93,7 +80,7 @@ header.header__container{
   header.header_container{ 
     width: 1600px;
     height: 80px;
-    gap: 0px;
+  
     border: 1px;
   }
  
@@ -115,8 +102,8 @@ header.header__container{
   color: #2196F3;
  } 
   
-  a.email{
-     
+  a.email{ 
+    padding-left: 385px;
      text-decoration:none; 
      padding-right: 40px;
       }
@@ -138,9 +125,10 @@ header.header__container{
    }
   
    a.phone{
-     padding-left:40px; 
      padding-top:32px; 
-     text-decoration:none; 
+     text-decoration:none;   
+    
+    
     
    }
      .header__navigation a {
@@ -180,17 +168,13 @@ header.header__container{
               font-weight: 900;  
                color: #FFFFFF;
               display:flex;
-              align-items: center;
+              align-items:center;
               width: 696px;
               height: 120px;
-              top: 280px;
-              left: 452px;
-               gap: 0px;
-              opacity: 0px;
               padding-left:452px;
               padding-right:452px; 
                padding-top:200px; 
-               ;
+             
             }
             
             
@@ -299,8 +283,7 @@ header.header__container{
              img.img2{  
               display: flex;
               width:270px;
-               height:260px;  
-            
+               height:260px; 
              
              }
       
@@ -326,7 +309,6 @@ header.header__container{
                   font-size: 16px;
                   font-weight: 400;
                   line-height: 18px;
-                 
                   text-align: center;
              } 
               
@@ -334,6 +316,7 @@ header.header__container{
                 width: 1600px;
                 height: 648px;
                 background-color:#F5F4FA;
+                top: 1449px;
               } 
 
               div.team{
@@ -408,7 +391,10 @@ header.header__container{
       
             /*Portofoliu*/ 
       
-            /*Main Part*/
+            /*Main Part*/  
+            main.main{
+               margin-bottom:94px;
+            }
             .main__list {
               list-style: none;
                    display: flex;
@@ -454,34 +440,41 @@ header.header__container{
                 gap:30px;
                }     
       
+                
             /*About Section*/  
              
               div.card{ 
-           display: flex;
-            flex-wrap:wrap; 
-            width: 370px; 
+          display: flex;
+          flex-wrap:wrap; 
+          width: 370px;
+            
 
-            }
+           }
              
             img.img3{ 
-               display:flex;
+            display:flex;
             width: 370px;
-            height:294px;  
-         
-            
-         }
-       
+            height:294px; 
+            }
+      
+                div.description{
+                    border: 1px solid #EEEEEE;
+                    } 
+          
+     
     
           
             .about__name {
-              font-family: var(--primary-font);
+            font-family: Roboto;
               font-size: 18px;
               font-weight: 700;
-             
-                padding-top:20px;
-                  padding-bottom: 4px;
-                   padding-left:24px;
-                    padding-right:237px;            }
+              line-height: 36px;
+              letter-spacing: 0.06em;
+              text-align:left; 
+              padding-top:20px;
+               padding-bottom:4px;
+                padding-left:24px;
+                         }
       
             .about__subname {
               font-family: var(--primary-font);
@@ -521,8 +514,8 @@ header.header__container{
               font-style: normal; 
               padding-left:215px; 
               padding-top:12px;
-               padding-bottom:12px;
-                text-decoration:none;
+              padding-bottom:12px;
+              text-decoration:none;
             }
       
             a.email2:hover {
@@ -532,7 +525,7 @@ header.header__container{
             a.phone2 {
               font-style: normal; 
               padding-left: 215px; 
-              padding-bottom:88px;
+              padding-bottom:60px;
                text-decoration:none;
             }
       
