@@ -14,7 +14,6 @@
  
     body{
       font-family: "Roboto", sans-serif;
-      color: default; 
     } 
      
     *{
@@ -31,10 +30,11 @@
 /*Header Section*/ 
 
 header.header__container{ 
-  width: 1200px;
+  width: 1600px;
   height: 80px;
   display: flex;
-  align-items: center;
+  align-items: center; 
+  border: 1px solid #ECECEC;
   
   
 }
@@ -94,8 +94,7 @@ header.header__container{
     width: 1600px;
     height: 80px;
     gap: 0px;
-    border: 1px 0px 0px 0px;
-   
+    border: 1px;
   }
  
  a.studio:hover{ 
@@ -117,7 +116,7 @@ header.header__container{
  } 
   
   a.email{
-     padding-left:385px; 
+     
      text-decoration:none; 
      padding-right: 40px;
       }
@@ -127,11 +126,7 @@ header.header__container{
     color: #2196F3; 
   } 
     
-  a.contacts{
-   
-    
-  }
-    
+ 
 
   a.studio{  
      padding-right:50px; 
@@ -145,7 +140,8 @@ header.header__container{
    a.phone{
      padding-left:40px; 
      padding-top:32px; 
-     text-decoration:none;
+     text-decoration:none; 
+    
    }
      .header__navigation a {
        text-decoration: none;
@@ -153,8 +149,7 @@ header.header__container{
        font-weight: 500;
        line-height: 17%;
        font-size: 14px; 
-      padding-top: 32px;
-      padding-bottom: 32px;
+     
      }
       
    
@@ -213,7 +208,6 @@ header.header__container{
               left: 700px;
               gap: 0px;
               border-radius: 4px 0px 0px 0px;
-              opacity: 0px;
                margin-left:700px; 
                margin-right:700px;
             }
@@ -297,7 +291,7 @@ header.header__container{
               display: flex;
               align-items: center; 
               padding-left:714px;
-               padding-right:717; 
+               padding-right:717px; 
                padding-left:718px;
                 padding-top:94px;
             }
@@ -315,20 +309,25 @@ header.header__container{
               font-family: var(--primary-font);
               font-size: 16px;
               font-weight: 500;
-              line-height:30%;
               color: #212121;
               list-style: none; 
               padding-left:91px; 
               padding-right:91px;
                padding-top:30px;  
-               padding-bottom:10px; 
+               padding-bottom:10px;
             }   
              
             p.team__job{
-               padding-left:97px;
-                padding-right:97px; 
+              padding-left:70px;
+               padding-right:70px; 
                  padding-bottom:30px;
-                 padding-top:10px;
+                 padding-top:10px; 
+                font-family:var(--primary-font);
+                  font-size: 16px;
+                  font-weight: 400;
+                  line-height: 18px;
+                 
+                  text-align: center;
              } 
               
               div.layout{
@@ -426,7 +425,6 @@ header.header__container{
                           font-family: var(--primary-font);
                           font-size: 16px;
                           font-weight: 500;
-                          line-height: 26%;
                           color: #212121;
                           cursor: pointer; 
                           display: flex; 
@@ -436,7 +434,6 @@ header.header__container{
                           padding-right:22px;
                            width:120px;
                           height: 38px;
-                          gap: 0px;
                           border-radius: 4px 0px 0px 0px; 
                           align-items: center; 
                           
@@ -496,7 +493,6 @@ header.header__container{
                 top: 616px;
                 left: 239px;
                 gap: 0px;
-                opacity: 0px; 
                 padding-left: 24px;  
                 padding-right:24px;
                 padding-top:4px;
@@ -506,7 +502,8 @@ header.header__container{
       
             footer {
               background-color: #2F303A;
-              ;
+              width: 1600px;
+              height: 251px;
             }
       
             p.street {
@@ -516,10 +513,16 @@ header.header__container{
               line-height: 17%;
               color: #FFFFFF;
               font-style: normal; 
+               padding-top:28px; 
+               padding-left:215px;
             }
       
             a.email2 {
-              font-style: normal;
+              font-style: normal; 
+              padding-left:215px; 
+              padding-top:12px;
+               padding-bottom:12px;
+                text-decoration:none;
             }
       
             a.email2:hover {
@@ -527,7 +530,10 @@ header.header__container{
             }
       
             a.phone2 {
-              font-style: normal;
+              font-style: normal; 
+              padding-left: 215px; 
+              padding-bottom:88px;
+               text-decoration:none;
             }
       
             a.phone2:hover {
@@ -537,17 +543,6 @@ header.header__container{
               
               
         
-       
-          address.container{
-            margin-top:119px;
-            padding-bottom:60px; 
-            padding-left:215px;
-             } 
-           
-           p.logo2{
-             padding-top: 60px; 
-             padding-left:215px;
-           }
          
             div.container{ 
               
