@@ -35,6 +35,7 @@ header.header__container{
   display: flex;
   align-items: center; 
   border: 1px solid #ECECEC; 
+   padding-left:215px;
 } 
 
 
