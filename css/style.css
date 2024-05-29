@@ -718,13 +718,13 @@ header.header__container{
              
 
 
-            /*Footer Section*/
-      
+            /*Footer Section*/ 
+            
             .footer2 {
               background-color: #2F303A;
               width: 1600px;
               height: 251px;
-               margin-top: 94px;
+              margin-top: 94px;
             }
       
             p.street {
