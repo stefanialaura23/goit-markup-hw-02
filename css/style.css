@@ -229,17 +229,7 @@ header.header__container{
                      padding-right:30px;
                     }   
 
-             div.div__hero{
-               display: flex; 
-                width: 1170px;
-                 height: 101px; 
-                 margin-bottom:94px; 
-                 margin-right:215px;
-                 margin-top:94px; 
-                margin-left: 215px; 
-                gap: 30px;
-             }
-              
+           
               
                       .b{
                           display: flex;
@@ -259,9 +249,16 @@ header.header__container{
       
             /*About Section*/ 
               
-              
+            .div__hero{
+             display: flex; 
+             justify-content: center; 
+             margin-top:94px;
+              margin-bottom:94px;
+            }  
+             
+
             .hero__icons{
-               display: flex;
+              
                 gap:30px;
             }
              .icon__hero{
@@ -280,7 +277,7 @@ header.header__container{
                 height: 120px;
                 border-radius: 4px 0px 0px 0px; 
                 gap:30px;
-                 display: flex;
+                
              } 
               
              .hero__icon{
@@ -382,17 +379,15 @@ header.header__container{
               
               div.layout{
                 width: 1600px;
-                height: 648px;
+                height:708px;
                 background-color:#F5F4FA;
-                top: 1449px;
               } 
 
               div.team{
                 display: flex; 
                 margin-left:215px;
                 margin-right:215px;
-                padding-top:50px;
-                padding-bottom:94px; 
+                margin-top:94px;
                 gap:30px;
                 }
                
@@ -444,10 +439,9 @@ header.header__container{
                                  } 
                                   
                     div.regular__customers{ 
-                      width: 1170px;
-                        height: 184px;
+                      
+                       
                         margin-top:94px; 
-                        margin-bottom:94px;
                         margin-left: 215px;
                         margin-right:215px;
                     }              
@@ -456,7 +450,7 @@ header.header__container{
                     font-family: var(--primary-font);
                       font-size: 36px;
                       font-weight: 700;
-                      line-height: 42.19px;
+                     
                       letter-spacing: 0.03em;
                       text-align: center;
                        color: var(--black);
@@ -468,7 +462,6 @@ header.header__container{
                   .regular__icon{ 
                     display: flex;
                      padding-top: 50px;
-                      padding-bottom:94px;
                        gap:30px
                   }
                    
@@ -505,7 +498,48 @@ header.header__container{
 
             /*Footer Section*/
       
-         
+          
+                                .footer {
+                                  background-color: #2F303A;
+                                  width: 1600px;
+                                  height: 251px; 
+                                  margin-top:372px;
+                                }
+                
+                                p.street {
+                                  font-family: var(--primary-font);
+                                  font-size: 14px;
+                                  font-weight: 400;
+                                  line-height: 17%;
+                                  color: #FFFFFF;
+                                  font-style: normal;
+                                  padding-top: 28px;
+                                }
+                
+                                a.email2 {
+                                  font-style: normal;
+                                  text-decoration: none;
+                                  color: #757575;
+                                }
+                
+                
+                                a.email2:hover {
+                                  color: #2196F3;
+                                }
+                
+                                a.phone2 {
+                                  font-style: normal;
+                                  text-decoration: none;
+                                  color: #757575;
+                                }
+                
+                                a.phone2:hover {
+                                  color: #2196F3;
+                                }
+             
+             
+
+             
       
             .address__street {
               font-family: var(--primary-font);
@@ -686,10 +720,11 @@ header.header__container{
 
             /*Footer Section*/
       
-            footer {
+            .footer2 {
               background-color: #2F303A;
               width: 1600px;
               height: 251px;
+               margin-top: 94px;
             }
       
             p.street {
