@@ -52,14 +52,41 @@ header.header__container{
           font-weight: 500;
           line-height: 17%;
           font-size: 14px;
-        }
-     
+           position: relative; 
+
+        } 
+
+                
+         
+         
+
         div.header__info {
           text-decoration: none;
           font-family: var(--primary-font);
           font-size: 14px;
-          font-weight: 500;
-        }
+          font-weight: 500; 
+          margin-left: 330px;
+           position: relative;
+        } 
+ 
+
+                    .header__navigation a:hover::after {
+                      position: absolute;
+                      content: '';
+                      width: 42px;
+                      height: 4px;
+                      border-radius: 2px;
+                      background-color: #2196F3;
+                      top: 40px;
+                      left: 0%;
+                
+                    }
+         
+            
+            
+           
+      
+
  
 .logo:hover{ 
   text-decoration:none;
@@ -92,71 +119,93 @@ header.header__container{
     border: 1px;
   }
     
-            div.header__info {
-              text-decoration: none;
-              font-family: var(--primary-font);
-              font-size: 14px;
-              font-weight: 500;
-            }
- 
- a.studio:hover{ 
-  color: #2196F3;
- }  
-     a.studio {
-       padding-right: 50px;
-       padding-left: 93px; 
-       color: var(--black);
-     } 
-       
-    
-      
-        div.header__info {
-          text-decoration: none;
-          font-family: var(--primary-font);
-          font-size: 14px;
-          font-weight: 500;
-        }
+           
   
+             
+a.studio {
+  padding-right: 50px;
+  margin-left: 93px;
+  color: var(--black);
+}
+      
  
+
+ a.studio:hover{ 
+  color: #2196F3; 
+  transition: cubic-bezier(0.4, 0, 0.2, 1) -250ms;
+ }  
+   
+ 
+    
  a.portofolio:hover{ 
-  color: #2196F3;
+  color: #2196F3; 
+  transition: cubic-bezier(0.4, 0, 0.2, 1) -250ms;
  } 
-         a.portofolio {
-           padding-right: 50px;
-            color: var(--black);
+         a.portofolio{
+            color: var(--black); 
+            padding-right: 50px;
          }
   
 
  
   a.contacts:hover{ 
-    color: #2196F3; 
+    color: #2196F3;  
+    transition: cubic-bezier(0.4, 0, 0.2, 1) -250ms;
   } 
    a.contacts{
-     color: var(--black);
+     color: var(--black); 
+     
    } 
- 
+  
+    
+       
+        
   
     a.email {
-      padding-left: 330px;
       text-decoration: none;
       padding-right: 40px;
-       color: var(--grey);
-    }
- a.email:hover {
-   color: #2196F3;
+       color: var(--grey); 
+       position: relative; 
+        
+    }  
+     
+        a.phone {
+          padding-left: 40px;
+          padding-right: 225px;
+          text-decoration: none;
+          color: var(--grey); 
+          position: relative;
+        }
+     
+
+ a.email:hover::after {
+   color: #2196F3;  
+  position: absolute;
+    content: '';
+    width: 42px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #2196F3;
+    top: 40px;
+    left: 0%;
+    transition: cubic-bezier(0.4, 0, 0.2, 1) -250ms;
+   
  }
    
-   a.phone:hover{ 
+   a.phone:hover::after{ 
     color:#2196F3 ;
+    position: absolute;
+      content: '';
+      width: 42px;
+      height: 4px;
+      border-radius: 2px;
+      background-color: #2196F3;
+      top: 40px;
+      left: 0%; 
+      transition: cubic-bezier(0.4, 0, 0.2, 1) -250ms;
    }
   
-   a.phone{
-     padding-left:40px; 
-     padding-right: 225px;
-     text-decoration:none;   
-     color: var(--grey); 
-    
-    }
+   
          
     .icon1{
       height: 20px;
@@ -166,6 +215,7 @@ header.header__container{
      
      .icon1:hover{
       fill: var(--blue);
+      transition: cubic-bezier(0.4, 0, 0.2, 1) -250ms;
      }
     /*Main Part*/
       
@@ -217,7 +267,8 @@ header.header__container{
       
             .hero__request:hover {
               background-color: #2196F3;
-              color: var(--white);
+              color: var(--white); 
+              transition: cubic-bezier(0.4, 0, 0.2, 1) -250ms;
             }
                
              
@@ -430,12 +481,14 @@ header.header__container{
                 
                             .member__social:hover { 
                             
-                                   background-color: var(--blue); 
+                                   background-color: var(--blue);  
+                                  transition: cubic-bezier(0.4, 0, 0.2, 1) -250ms;
                                  }
                                   
                                  .icon:hover{
                                    fill: var(--white); 
                                    color: #FFFFFF;
+                                  transition: cubic-bezier(0.4, 0, 0.2, 1) -250ms;
                                  } 
                                   
                     div.regular__customers{ 
@@ -487,7 +540,8 @@ header.header__container{
 
                                 .icons__section:hover {
                                 fill: var(--blue);  
-                                border: 1px solid #2196F3;
+                                border: 1px solid #2196F3; 
+                                transition: cubic-bezier(0.4, 0, 0.2, 1) -250ms;
                 
                                 }
                                 
@@ -525,6 +579,7 @@ header.header__container{
                 
                                 a.email2:hover {
                                   color: #2196F3;
+                                  transition: cubic-bezier(0.4, 0, 0.2, 1) -250ms;
                                 }
                 
                                 a.phone2 {
@@ -534,7 +589,8 @@ header.header__container{
                                 }
                 
                                 a.phone2:hover {
-                                  color: #2196F3;
+                                  color: #2196F3; 
+                                  transition: cubic-bezier(0.4, 0, 0.2, 1) -250ms;
                                 }
              
              
@@ -606,7 +662,8 @@ header.header__container{
               
              .icons2:hover{ 
               background-color: var(--blue);
-              border-radius: 100px;
+              border-radius: 100px; 
+              transition: cubic-bezier(0.4, 0, 0.2, 1) -250ms;
              }
 
                               
@@ -648,8 +705,10 @@ header.header__container{
             button.main__button:hover {
               background-color:#2196F3;
               color: #FFFFFF; 
-              box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1); 
+              box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);  
+              transition: cubic-bezier(0.4, 0, 0.2, 1), -250ms;
              }
+              
       
              div.about{
                display:flex;    
@@ -671,7 +730,8 @@ header.header__container{
            
           div.card:hover{ 
             border: 1px solid rgba(238, 238, 238, 1); 
-            cursor: pointer;
+            cursor: pointer; 
+            transition: cubic-bezier(0.4, 0, 0.2, 1) -250ms;
           }
              
             img.img3{ 
@@ -746,16 +806,19 @@ header.header__container{
 
             a.email2:hover {
               color: #2196F3;
+              transition: cubic-bezier(0.4, 0, 0.2, 1) -250ms;
             }
       
             a.phone2 {
               font-style: normal; 
                text-decoration:none; 
-               color: #757575;
+               color: #757575; 
+              transition: cubic-bezier(0.4, 0, 0.2, 1) -250ms;
             }
       
             a.phone2:hover {
               color: #2196F3;
+              transition: cubic-bezier(0.4, 0, 0.2, 1) -250ms;
             }
  
             
@@ -770,4 +833,47 @@ header.header__container{
             .section{
                border-top: 94px; 
                border-bottom:94px;
-            }
+            } 
+
+              
+            /*Modal Window style*/ 
+          
+               
+             .is-hidden{
+               opacity: 0;
+                visibility: hidden;
+                 pointer-events: none;
+             } 
+
+
+            [data-modal]{
+               height:100%; 
+               width: 100%;
+                position:fixed; 
+                top: 0; 
+                left: 0; 
+                background-color: rgba(0, 0, 0, 0.1);
+            }  
+             
+             .is-hidden [data-modal-content] {
+             transform:translate(-30%, -50%) scale(0.5); 
+                          
+                         }
+            
+             [data-modal-content] { 
+              width: 528px;
+              height: 581px;
+              background-color: rgba(255, 255, 255, 1);
+               position: absolute;
+                top: 50%; 
+                 left: 50%;
+                transform: translate(-50%, -50%), scale(1); 
+                transition-duration: 1s;
+                 padding:20px; 
+             }
+
+             [data-modal-close]{
+               top: 10px;
+                position: absolute;
+                 right: 10px;
+             }
